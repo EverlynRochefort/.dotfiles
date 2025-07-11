@@ -1,0 +1,52 @@
+{
+  // NOTE: cursor and fonts settings
+  "editor.fontFamily": "Iosevka Nerd Font Mono",
+  "workbench.colorTheme": "Hack The Box",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "expand",
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\nvim-win64\\bin\\nvim.exe",
+  "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\<user>\\AppData\\Local\\nvim\\init.lua",
+
+  // NOTE: extension: prettier settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // NOTE: workbench environment settings
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "workbench.tips.enabled": false,
+  "breadcrumbs.icons": false,
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.linkedEditing": true,
+
+  // NOTE: extension: todo_highlight settings
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "black",
+      "backgroundColor": "#00CAFF",
+      "isWholeLine": false
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "DEBUG:",
+      "color": "black",
+      "backgroundColor": "#FFAAAA",
+      "isWholeLine": false
+    }
+  ]
+}
